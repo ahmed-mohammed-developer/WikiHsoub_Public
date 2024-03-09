@@ -14,7 +14,111 @@
      <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-     
+     <div class="layer"></div>
+     <!-- Start Header-->
+     <header class="hsoub-header">
+         <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+               <div class="container-fluid">
+                    <i class="fa-solid fa-bars" id="toggler"></i>
+                 <a class="navbar-brand" href="./"><img src="./img/index/wiki-logo-white.svg" alt="logo"></a>
+                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                   <span class="navbar-toggler-icon"></span>
+                 </button>
+                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                   <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                     <li class="nav-item">
+                       <a class="nav-link active" href="./"><span class="spnan-nav"><i class="fa-solid fa-book"></i></span>الصفحة الرئسية</a>
+                     </li>
+                     <li class="nav-item dropdown">
+                       <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                         أدوات الصفحة
+                       </a>
+                       <ul class="dropdown-menu">
+                         <span class="aaa"></span>
+                         <li style="text-align: right;"><a class="dropdown-item" href="#"><span class="spnan-nav-drop"><i class="fa fa-history"></i></span>تاريخ</a></li>
+                       </ul>
+                     </li>
+                   </ul>
+                   <form class="d-flex" role="search">
+                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                     <button class="btn btn-outline-success" type="submit">Search</button>
+                   </form>
+                 </div>
+               </div>
+             </nav>
+         </div>
+     </header>
+     <!-- End Header-->
+     <!-- Start Sidbar-->
+     <div class="sidbar">
+          <div class="container-fluid">
+               <div class="row">
+                    <div id="wrap">
+                         <div class="sidbar-1" style="width: 15rem; height: 100vb;">
+                              <ul class="list-group list-group-flush pe-0 ">
+                                   <a href="#" class="ul-list">
+                                        <li class="list-group-item list-group-item-action ">
+                                             <span class="spnan-nav-drop"><i class="fa-regular fa-clock"></i></span>
+                                             أحدث التغيرات
+                                        </li>
+                                   </a>
+                                   <a href="#">
+                                        <li class="list-group-item list-group-item-action ">
+                                             <span class="spnan-nav-drop"><i class="fa-solid fa-shuffle"></i></span>
+                                             صفحة عشوائية
+                                        </li>
+                                   </a>
+                                       <a href="#">
+                                        <li class="nav-item dropdown list-group-item list-group-item-action">
+                                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                               الأدوات
+                                             </a>
+                                             <ul class="dropdown-menu">
+                                               <li><a class="dropdown-item" href="#">Action</a></li>
+                                               <li><a class="dropdown-item" href="#">Another action</a></li>
+                                               <li><hr class="dropdown-divider"></li>
+                                               <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                             </ul>
+                                        </li>
+                                       </a>
+                                        <a href="#">
+                                             <li class="nav-item dropdown list-group-item list-group-item-action">
+                                                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    موسوعة حسوب
+                                                  </a>
+                                                  <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                    <li><hr class="dropdown-divider"></li>
+                                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                                  </ul>
+                                             </li>
+                                        </a>
+                                        <a href="">
+                                             <li class="nav-item dropdown list-group-item list-group-item-action">
+                                                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                  تابع موسوعة حسوب
+                                                  </a>
+                                                  <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                    <li><hr class="dropdown-divider"></li>
+                                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                                  </ul>
+                                             </li>
+                                        </a>
+                              </ul>
+                         </div>
+                    </div>
+               </div>
+          </div>
+        </div>
+     <!-- End Sidbar-->
+
+
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     <script src="./js/main.js"></script>
 </body>
 </html>

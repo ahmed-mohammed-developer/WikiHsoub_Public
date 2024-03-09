@@ -1,4 +1,50 @@
+@import "./varibale";
+@import "./class.scss";
+
+
 body {
      font-family: "Noto Kufi Arabic", sans-serif;
      background-color: #f2f2f2f2;
+     .hsoub-header {
+          background-color: $main-color ;
+          .navbar {
+               background-color: $main-color !important;
+               .fa-bars {
+                    cursor: pointer;
+                    color: $text-nav;
+                    font-size: 25px;
+               }
+               img {
+                    width: 40px;
+                    height: 40px;
+               }
+               .nav-link {
+                    color: $text-nav !important;
+                    font-size: 18px;
+                    line-height: 20px;
+                    .dropdown-item {
+                         color: #484848 !important;
+                         &:before {
+                              content: "aa";
+                         }
+                    }
+               }
+          }
+     }
+     .sidbar{
+         
+          .sidbar-1{
+               position: fixed;
+               z-index: 4;
+               right: -15rem;
+               transition: all 0.5s ease-in-out;
+               background-color: $text-nav;
+               overflow: hidden;
+               box-shadow: -1px 0 10px 2px rgba(0, 0, 0, 0.5);
+          }
+     }
+}
+/* jQ bars toggler */
+#wrap.toggled .sidbar-1 {
+     right: 0rem;
 }

@@ -1,6 +1,104 @@
+a {
+  text-decoration: none !important;
+}
+a:hover {
+  color: none;
+}
+
+.spnan-nav {
+  margin-left: 10px;
+}
+
+.spnan-nav-drop {
+  margin-left: 6px;
+}
+
+.aaa {
+  position: relative;
+}
+.aaa::before {
+  position: absolute;
+  content: "";
+  display: block;
+  left: 0;
+  bottom: 8px;
+  right: -166px;
+  width: 11px;
+  height: 11px;
+  margin: 0 auto;
+  border: solid 5px transparent;
+  border-bottom-color: #fff;
+}
+
+.layer {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 3;
+  display: none;
+}
+
+.list-group {
+  --bs-list-group-action-hover-color: none;
+  --bs-list-group-action-hover-bg: none;
+  --bs-list-group-bg: transparent;
+}
+
+.list-group-item {
+  color: #484848;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.list-group-item-action:hover {
+  color: #484848;
+}
+
 body {
   font-family: "Noto Kufi Arabic", sans-serif;
   background-color: rgba(242, 242, 242, 0.9490196078);
+}
+body .hsoub-header {
+  background-color: #205a23;
+}
+body .hsoub-header .navbar {
+  background-color: #205a23 !important;
+}
+body .hsoub-header .navbar .fa-bars {
+  cursor: pointer;
+  color: #efefef;
+  font-size: 25px;
+}
+body .hsoub-header .navbar img {
+  width: 40px;
+  height: 40px;
+}
+body .hsoub-header .navbar .nav-link {
+  color: #efefef !important;
+  font-size: 18px;
+  line-height: 20px;
+}
+body .hsoub-header .navbar .nav-link .dropdown-item {
+  color: #484848 !important;
+}
+body .hsoub-header .navbar .nav-link .dropdown-item:before {
+  content: "aa";
+}
+body .sidbar .sidbar-1 {
+  position: fixed;
+  z-index: 4;
+  right: -15rem;
+  transition: all 0.5s ease-in-out;
+  background-color: #efefef;
+  overflow: hidden;
+  box-shadow: -1px 0 10px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* jQ bars toggler */
+#wrap.toggled .sidbar-1 {
+  right: 0rem;
 }
 
 /*# sourceMappingURL=style.css.map */
