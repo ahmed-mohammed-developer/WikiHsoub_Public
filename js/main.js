@@ -1,5 +1,5 @@
 $(document).ready(function() {
-
+      //sidbar
      $("#toggler").click(function(event) {
           $('#wrap').toggleClass('toggled');
 
@@ -14,11 +14,15 @@ $(document).ready(function() {
                $('.layer').fadeIn();
           }
      });
-
+          //layer
      $('.layer').click(function() {
           $('.sidbar-1').css({ 'right': '-15rem'});
           $('.layer').fadeOut();
-     })
+     });
 
+     //search icon
+     $(".search-icon").click(function () {
+          $(".search-input").slideToggle("slow");
+     })
 
 });

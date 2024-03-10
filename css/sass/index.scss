@@ -22,10 +22,17 @@ body {
                     color: $text-nav !important;
                     font-size: 18px;
                     line-height: 20px;
-                    .dropdown-item {
-                         color: #484848 !important;
-                         &:before {
-                              content: "aa";
+               }
+               .search-icon-cla{
+                    margin-left: 18px;
+                    .search-icon{
+                         cursor: pointer;
+                         color: $text-nav;
+                         font-size: 20px;
+                         transition: all 0.5s ease;
+                         padding: 20px 18px;
+                         &:hover {
+                              background-color: $hover-nav;
                          }
                     }
                }
@@ -43,7 +50,33 @@ body {
                box-shadow: -1px 0 10px 2px rgba(0, 0, 0, 0.5);
           }
      }
+.search-input {
+     height: 60px;
+     padding: 2px 6px;
+     margin: 0;
+     width: 100%;
+     background-color: $text-nav;
+     font-size: 18px;
+     border: 0;
+     border-radius: 0;
+    box-shadow: none;
+    outline: 0;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+    position: absolute;
+    z-index: 1;
+    top: 65px;
+    display: none;
+    &:focus {
+     background-color: $waite-color
+    }
+    &::placeholder {
+     padding-right: 20px;
+    }
 }
+
+}
+
+
 /* jQ bars toggler */
 #wrap.toggled .sidbar-1 {
      right: 0rem;

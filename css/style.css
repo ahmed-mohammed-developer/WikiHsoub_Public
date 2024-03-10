@@ -56,6 +56,41 @@ a:hover {
   color: #484848;
 }
 
+.log-in {
+  margin-left: 2px;
+  color: #efefef;
+}
+
+.log-in-2 {
+  color: #efefef;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.log-in-3 {
+  padding: 10px 9px;
+  background-color: #205a23;
+  border: 1px solid #efefef;
+  margin: 9px 18px;
+  transition: all 0.5s ease;
+}
+.log-in-3:hover {
+  background-color: #28832c;
+}
+
+.nav-in-3 {
+  padding: 13px 15px;
+  transition: all 0.5s ease;
+}
+.nav-in-3:hover {
+  background-color: #28832c;
+}
+
+@media (width < 992px) {
+  .dropdown {
+    display: none !important;
+  }
+}
 body {
   font-family: "Noto Kufi Arabic", sans-serif;
   background-color: rgba(242, 242, 242, 0.9490196078);
@@ -80,11 +115,18 @@ body .hsoub-header .navbar .nav-link {
   font-size: 18px;
   line-height: 20px;
 }
-body .hsoub-header .navbar .nav-link .dropdown-item {
-  color: #484848 !important;
+body .hsoub-header .navbar .search-icon-cla {
+  margin-left: 18px;
 }
-body .hsoub-header .navbar .nav-link .dropdown-item:before {
-  content: "aa";
+body .hsoub-header .navbar .search-icon-cla .search-icon {
+  cursor: pointer;
+  color: #efefef;
+  font-size: 20px;
+  transition: all 0.5s ease;
+  padding: 20px 18px;
+}
+body .hsoub-header .navbar .search-icon-cla .search-icon:hover {
+  background-color: #28832c;
 }
 body .sidbar .sidbar-1 {
   position: fixed;
@@ -94,6 +136,29 @@ body .sidbar .sidbar-1 {
   background-color: #efefef;
   overflow: hidden;
   box-shadow: -1px 0 10px 2px rgba(0, 0, 0, 0.5);
+}
+body .search-input {
+  height: 60px;
+  padding: 2px 6px;
+  margin: 0;
+  width: 100%;
+  background-color: #efefef;
+  font-size: 18px;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  outline: 0;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  position: absolute;
+  z-index: 1;
+  top: 65px;
+  display: none;
+}
+body .search-input:focus {
+  background-color: #fff;
+}
+body .search-input::placeholder {
+  padding-right: 20px;
 }
 
 /* jQ bars toggler */
