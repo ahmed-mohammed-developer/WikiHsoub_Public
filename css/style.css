@@ -86,11 +86,6 @@ a:hover {
   background-color: #28832c;
 }
 
-@media (width < 992px) {
-  .dropdown {
-    display: none !important;
-  }
-}
 body {
   font-family: "Noto Kufi Arabic", sans-serif;
   background-color: rgba(242, 242, 242, 0.9490196078);
@@ -164,6 +159,17 @@ body .search-input::placeholder {
 /* jQ bars toggler */
 #wrap.toggled .sidbar-1 {
   right: 0rem;
+}
+
+@media (max-width: 997px) {
+  .none-nav {
+    display: none;
+  }
+}
+@media (max-width: 732px) {
+  .none-nav-2 {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -73,11 +73,18 @@ body {
      padding-right: 20px;
     }
 }
-
 }
-
-
 /* jQ bars toggler */
 #wrap.toggled .sidbar-1 {
      right: 0rem;
+}
+@media (max-width: 997px) {
+     .none-nav{
+          display: none;
+     }
+}
+@media (max-width: 732px) {
+     .none-nav-2{
+          display: none;
+     }
 }
