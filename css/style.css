@@ -193,6 +193,23 @@ body .main .main-con .content .box p {
   padding: 1.6em 0;
   color: #fff;
 }
+body .main .main-con .title-cours {
+  margin-block: 20px;
+  padding-top: 20px;
+  border-bottom: 1px solid #cececf;
+  margin-inline: 15px;
+}
+body .main .main-con .title-cours h1 {
+  font-size: 19px;
+  line-height: 2em;
+}
+body .main .main-con .img-cours {
+  margin: 16px;
+}
+body .main .main-con .img-cours img {
+  height: auto;
+  max-width: 100%;
+}
 
 /* jQ bars toggler */
 #wrap.toggled .sidbar-1 {
