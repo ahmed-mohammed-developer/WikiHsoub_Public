@@ -178,6 +178,21 @@ body .main .main-con .input-body {
   padding: 10px;
   margin-top: 50px;
 }
+body .main .main-con .content {
+  margin-top: 80px;
+  margin-inline: 15px;
+}
+body .main .main-con .content .box {
+  text-align: center;
+  font-size: 1.6em;
+  background: #205a23;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+body .main .main-con .content .box p {
+  padding: 1.6em 0;
+  color: #fff;
+}
 
 /* jQ bars toggler */
 #wrap.toggled .sidbar-1 {

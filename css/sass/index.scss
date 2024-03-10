@@ -96,6 +96,21 @@ body {
                padding: 10px;
                margin-top: 50px;
           }
+          .content {
+               margin-top: 80px;
+               margin-inline: 15px;
+               .box {
+                    text-align: center;
+                    font-size: 1.6em;
+                     background: #205a23;
+                    margin-bottom: 0;
+                     margin-top: 0;
+                     p{
+                         padding: 1.6em 0;
+                         color: $waite-color;
+                     }
+               }
+          }
           }
      }
 }
