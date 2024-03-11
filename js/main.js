@@ -6,7 +6,7 @@ $(document).ready(function() {
           let right = $('.sidbar-1').css("right");
           if (right == '0px')
           {
-               $('.sidbar-1').css({ 'right': '-15rem'});
+               $('.sidbar-1').css({ 'right': '-17rem'});
                $('.layer').fadeOut();
           }
           else {
@@ -16,7 +16,7 @@ $(document).ready(function() {
      });
           //layer
      $('.layer').click(function() {
-          $('.sidbar-1').css({ 'right': '-15rem'});
+          $('.sidbar-1').css({ 'right': '-17rem'});
           $('.layer').fadeOut();
      });
 

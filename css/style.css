@@ -126,7 +126,7 @@ body .hsoub-header .navbar .search-icon-cla .search-icon:hover {
 body .sidbar .sidbar-1 {
   position: fixed;
   z-index: 4;
-  right: -15rem;
+  right: -17rem;
   transition: all 0.5s ease-in-out;
   background-color: #efefef;
   overflow: hidden;
@@ -209,6 +209,59 @@ body .main .main-con .img-cours {
 body .main .main-con .img-cours img {
   height: auto;
   max-width: 100%;
+}
+body .main .mw-footer {
+  margin-top: 50px;
+}
+body .main .mw-footer h5 {
+  font-size: 13px;
+  line-height: 20px;
+}
+body .main .mw-footer h5 span {
+  color: #0645ad;
+}
+body .main .mw-footer ul {
+  padding-right: 0px !important;
+}
+body .main .mw-footer ul .list-inline-item {
+  font-size: 13px;
+  color: #0645ad;
+  margin-right: 8px;
+}
+body .main .mw-footer ul .list-inline-item:first-child {
+  margin-right: 0px !important;
+}
+
+footer {
+  padding-block: 50px;
+  background-color: #fff;
+}
+footer .img-footer {
+  margin-block: 20px;
+}
+footer .img-footer img {
+  width: 100%;
+  height: 50px;
+}
+footer .m-footer {
+  margin-bottom: 30px;
+}
+footer .m-footer:last-child {
+  margin-bottom: 0;
+}
+footer .m-footer .footer-conten h2 {
+  font-size: 12px;
+  line-height: 0.5em;
+  padding: 8px 0;
+  margin: 0;
+  color: #111;
+}
+footer .m-footer .footer-conten p {
+  color: #777;
+  font-size: 11px;
+  line-height: 1.4em;
+  padding: 2px 0;
+  margin: 0;
 }
 
 /* jQ bars toggler */
