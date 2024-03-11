@@ -1,0 +1,42 @@
+@import "./varibale";
+@import "./class.scss";
+
+.login-nav {
+     background-color: #fff !important;
+}
+#log {
+     background-color: #fff !important;
+}
+.color-log {
+     color: #313335 !important;
+     background-color: transparent;
+     border-color: #313335;
+     &:hover {
+          background-color: transparent !important;
+     }
+}
+.layer {
+     top: 70px;
+}
+.sidbar{
+     background-color: #fff !important;
+
+     .sidbar-1{
+          box-shadow: none !important;
+          top: 70px;
+          background-color: #fff !important;
+     }
+}
+@media (max-width: 430px) {
+     .none-login{
+          display: none;
+     }
+     .none-mar {
+          margin: 0 !important;
+          padding: 2px 5px;
+          font-size: 10px;
+          span{
+               font-size: 15px;
+          }
+     }
+}

@@ -2,6 +2,7 @@
 @import "./class.scss";
 
 
+
 body {
      font-family: "Noto Kufi Arabic", sans-serif;
      background-color: #f2f2f2f2;
@@ -191,6 +192,7 @@ footer{
 #wrap.toggled .sidbar-1 {
      right: 0rem;
 }
+
 
 @media (max-width: 997px) {
      .none-nav{
